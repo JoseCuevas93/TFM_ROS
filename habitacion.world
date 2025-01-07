@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="habitacio">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Parets de l'habitació -->
+    <model name="parets">
+      <static>true</static>
+
+      <!-- Paret 1 (llarga, 6 m) -->
+      <link name="paret_1">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.1 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.1 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+        <pose>1 -2 0.101 0 0 0</pose>
+      </link>
+
+      <!-- Paret 2 (llarga, 6 m) -->
+      <link name="paret_2">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.1 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.1 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+        <pose>1 2 0.101 0 0 0</pose>
+      </link>
+
+      <!-- Paret 3 (curta, 4 m) -->
+      <link name="paret_3">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 4 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 4 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+        <pose>-2 0 0.101 0 0 0</pose>
+      </link>
+
+      <!-- Paret 4 (curta, 4 m) -->
+      <link name="paret_4">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 4 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 4 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+          </material>
+        </visual>
+        <pose>4 0 0.101 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Habitació interior -->
+    <model name="habitacio_interior">
+      <static>true</static>
+
+      <!-- Paret interior 1 -->
+      <link name="paret_interior_1">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.08 0.04 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 1 1</ambient>
+          </material>
+        </visual>
+        <pose>2.5 1.02 0 0 0 0</pose>
+      </link>
+
+      <!-- Paret interior 2 -->
+      <link name="paret_interior_2">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.08 0.04 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 1 1</ambient>
+          </material>
+        </visual>
+        <pose>2.5 -1.02 0 0 0 0</pose>
+      </link>
+
+      <!-- Paret interior 3 -->
+      <link name="paret_interior_3">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.04 2.08 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 1 1</ambient>
+          </material>
+        </visual>
+        <pose>1.98 0 0 0 0 0</pose>
+      </link>
+
+      <!-- Paret interior 4 -->
+      <link name="paret_interior_4">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.04 2.08 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>1 0 1 1</ambient>
+          </material>
+        </visual>
+        <pose>3.02 0 0 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Nova placa -->
+    <model name="placa">
+      <static>true</static>
+      <link name="placa">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.005 0.5 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.005 0.5 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.2 0.7 0.2 1</ambient>
+          </material>
+        </visual>
+        <!-- Girar 90 graus al voltant de l'eix Z -->
+        <pose>-0.5 0 0.101 0 0 0</pose>
+      </link>
+    </model>
+  </world>
+</sdf>
+
