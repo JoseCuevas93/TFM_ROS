@@ -257,8 +257,11 @@ void scanCallback(const sensor_msgs::LaserScan::ConstPtr& msg) {
         }
     }
 
-    std::string output_file_path_txt = "/home/jose/ros/tfm_ws/src/tfm_simulation/lidar_data.txt";
-    std::string output_file_path_csv = "/home/jose/ros/tfm_ws/src/tfm_simulation/lidar_data.csv";
+    //std::string output_file_path_txt = "/home/jose/ros/tfm_ws/src/tfm_simulation/lidar_data.txt";
+    //std::string output_file_path_csv = "/home/jose/ros/tfm_ws/src/tfm_simulation/lidar_data.csv";
+    
+    std::string output_file_path_txt = "/home/jose/ros/tfm_ws/src/tfm_simulation/lidar_data_interacion" + std::to_string(iteracion) + ".txt";
+    std::string output_file_path_csv = "/home/jose/ros/tfm_ws/src/tfm_simulation/lidar_data_interacion" + std::to_string(iteracion) + ".csv";
 
     std::ofstream output_file_txt(output_file_path_txt);
     std::ofstream output_file_csv(output_file_path_csv);
@@ -690,7 +693,7 @@ int main(int argc, char **argv) {
     ros::start();
     ros::Rate rate(10); // Frecuencia del bucle
 
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < 10; ++i) {
         ROS_INFO("Iteracion %d del bucle docking", i + 1);
         ros::Duration(0.5).sleep();
 
@@ -739,3 +742,5 @@ int main(int argc, char **argv) {
 
     return 0;
 }
+
+
