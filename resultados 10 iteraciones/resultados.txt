@@ -1,0 +1,50 @@
+Iteración 1, los valores de odometría inicial son: x=-0.0463807, y=-0.0119563, yaw=-3.00944
+Iteración 1, los valores de odometría final son: x=-0.340046, y=0.00954877, yaw=3.08057
+Distancia al punto (-0.35, 0): 0.0137934 metros
+Diferencia angular con PI: 3.49613 grados
+Diferencia de tiempo: 10 segundos
+Iteración 2, los valores de odometría inicial son: x=-0.0443807, y=0.00419941, yaw=2.98573
+Iteración 2, los valores de odometría final son: x=-0.36253, y=0.013993, yaw=3.02366
+Distancia al punto (-0.35, 0): 0.0187834 metros
+Diferencia angular con PI: 6.75685 grados
+Diferencia de tiempo: 11 segundos
+Iteración 3, los valores de odometría inicial son: x=-0.0260128, y=-0.0020679, yaw=-2.95139
+Iteración 3, los valores de odometría final son: x=-0.345007, y=0.00642066, yaw=3.11635
+Distancia al punto (-0.35, 0): 0.00813356 metros
+Diferencia angular con PI: 1.44654 grados
+Diferencia de tiempo: 11 segundos
+Iteración 4, los valores de odometría inicial son: x=-0.0328541, y=0.00116297, yaw=-2.98558
+Iteración 4, los valores de odometría final son: x=-0.3418, y=-0.0202474, yaw=-3.10516
+Distancia al punto (-0.35, 0): 0.0218447 metros
+Diferencia angular con PI: 2.08729 grados
+Diferencia de tiempo: 11 segundos
+Iteración 5, los valores de odometría inicial son: x=0.0147662, y=0.0406801, yaw=3.05094
+Iteración 5, los valores de odometría final son: x=-0.347777, y=0.0373068, yaw=3.04632
+Distancia al punto (-0.35, 0): 0.037373 metros
+Diferencia angular con PI: 5.45876 grados
+Diferencia de tiempo: 13 segundos
+Iteración 6, los valores de odometría inicial son: x=0.0775782, y=0.0206534, yaw=-3.08271
+Iteración 6, los valores de odometría final son: x=-0.351136, y=-0.00374793, yaw=-3.10479
+Distancia al punto (-0.35, 0): 0.00391618 metros
+Diferencia angular con PI: 2.1089 grados
+Diferencia de tiempo: 12 segundos
+Iteración 7, los valores de odometría inicial son: x=-0.0441077, y=-0.0039013, yaw=3.13361
+Iteración 7, los valores de odometría final son: x=-0.364799, y=0.00391538, yaw=2.94118
+Distancia al punto (-0.35, 0): 0.0153083 metros
+Diferencia angular con PI: 11.4828 grados
+Diferencia de tiempo: 10 segundos
+Iteración 8, los valores de odometría inicial son: x=-0.0463546, y=-0.00098869, yaw=3.14142
+Iteración 8, los valores de odometría final son: x=-0.338401, y=0.0172704, yaw=3.06229
+Distancia al punto (-0.35, 0): 0.0208042 metros
+Diferencia angular con PI: 4.54378 grados
+Diferencia de tiempo: 10 segundos
+Iteración 9, los valores de odometría inicial son: x=-0.0403482, y=0.00739142, yaw=-3.11134
+Iteración 9, los valores de odometría final son: x=-0.342854, y=0.00380241, yaw=3.13551
+Distancia al punto (-0.35, 0): 0.00809422 metros
+Diferencia angular con PI: 0.348695 grados
+Diferencia de tiempo: 10 segundos
+Iteración 10, los valores de odometría inicial son: x=0.070492, y=0.0477164, yaw=-2.95311
+Iteración 10, los valores de odometría final son: x=-0.349903, y=0.0184313, yaw=-3.11203
+Distancia al punto (-0.35, 0): 0.0184315 metros
+Diferencia angular con PI: 1.69397 grados
+Diferencia de tiempo: 12 segundos
