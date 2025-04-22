@@ -1,5 +1,0 @@
-, los valores de odometría inicial son: x=-0.0562576, y=-0.0734718, yaw=-2.97387
-, los valores de odometría final son: x=-0.348928, y=-0.0120499, yaw=-3.10622
-Distancia al punto (-0.35, 0): 0.0120974 metros
-Diferencia angular con PI: 2.02667 grados
-Diferencia de tiempo: 11 segundos
